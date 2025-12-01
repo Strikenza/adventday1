@@ -31,10 +31,10 @@ public class Main {
         if (stringturn.equals("R")) {
             for (int i = 0; i < intturn; i++) {
                 starter++;
-                if (starter == 0) zerocount++;
                 if (starter == 100) {
                     starter = 0;
                 }
+                if (starter == 0) zerocount++;
             }
         }
         return zerocount;
